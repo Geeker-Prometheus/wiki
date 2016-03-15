@@ -4,6 +4,33 @@
 
 参考 [node-style-guide](https://github.com/felixge/node-style-guide)
 
+**Formatting**
+
+* 2 Spaces for indentation
+* Use Semicolons
+* 80 characters per line
+* Use single quotes
+* Opening braces go on the same line
+* Declare one variable per var statement
+
+**Bad**
+
+	var foo = "bar";
+	
+	if (true) 
+	{
+		console.log('true');
+	}
+
+**Good**
+
+	var foo = 'bar';
+	
+	if (true) {
+		console.log('true');
+	}
+
+
 ## CSS Style Guide
 
 **Formatting**
